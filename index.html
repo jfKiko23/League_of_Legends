@@ -3,23 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>My First Webpage</title>
+    <link rel="stylesheet" type="text/css" href="mydesign.css">
   </head>
-  
-      <style>
-
-      body{
-        background-color: #FFE9A0;
-      }
-
-      hr{
-
-        background-color: #647E68;
-        border-style: inset;
-        border-width: 5px;
-      }
-
-    </style>
-  
   <body>
     <center><h1>League of Legends</h1></center>
     <p>
@@ -27,7 +12,7 @@
       Inspired by Defense of the Ancients, a custom map for Warcraft III, Riot's founders sought to develop a stand-alone game in the same genre.
       Since its release in October 2009, League has been free-to-play and is monetized through purchasable character customization. The game is available for Microsoft Windows and macOS.
     </p>
-    <center><img src="Images/LOL 2.jpg" width="800"></center>
+    <center><img class="class1" src="Images/LOL 2.jpg" width="800"></center>
     <br>
     <p2>
       In the game, two teams of five players battle in player-versus-player combat, each team occupying and defending their half of the map. Each of the ten players controls a character, known as a "champion", with unique abilities and differing styles of play.
@@ -59,30 +44,16 @@
 
       Summoner's Rift matches can last from as little as 15 minutes to over an hour. Although the game does not enforce where players may go, conventions have arisen over the game's lifetime: typically one player goes in the top lane, one in the middle lane, one in the jungle, and two in the bottom lane. Players in a lane kill minions to accumulate gold and XP (termed "farming") and try to prevent their opponent from doing the same. A fifth champion, known as a "jungler", farms the jungle monsters and, when powerful enough, assists their teammates in a lane
     </p>
-    <hr size="10" color="10">
-
+    <hr>
     <center><h2>Cinematics</h2></center>
 
     <table cellspacing="30">
-    <tbody>
-      <tr>
-        <td>
+    <center>
     <video controls width="400" height="400" autoplay muted loop source src="Videos/Phoenix (ft. Cailin Russo and Chrissy Costanza).mp4"type="Video/mp4"></video>
-    </td>
-    <td>
+    <p> 2019 Worlds League of Legends Cinematic</p>
     <video controls width="400" height="400" autoplay muted loop source src="Videos/RISE (ft. The Glitch Mob, Mako, and The Word Alive).mp4"type="Video/mp4"></video>
-    </td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td>
-        <h3> 2019 Worlds League of Legends Cinematic</h2>
-      </td>
-      <td>
-        <h3> 2018 Worlds League of Legends Cinematic</h2>
-      </td>
-    </tr>
+    <p> 2018 Worlds League of Legends Cinematic</p>
+    </center>
   </table>
 
     <br>
@@ -98,61 +69,127 @@
     <audio controls src="Audios/RISE (ft. The Glitch Mob, Mako, and The Word Alive).mp3" type="Audios/mpeg"></audio>
     <p> 2018 Worlds League of Legends Full Song</p>
     </br>
-    <hr size="10" color="10">
 
     </p>
     <br>
     <h2>Character List</h2>
-    <p id="this"> League of Legends</p>
     <p><a href="https://www.leagueoflegends.com/en-us/champions/">
-      Home Page for characters</a>
+      Home Page of the lists of characters</a>
     </br>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <table>
-      <th center colspan=12>A's Characters</th>
-    <table>
-      <tr>
-      <td><a href="Odyssey Aatrox.html"><img src= "Image/Odyssey Aatrox.png" height="100" width="100"><th> Aatrox </br> Fighter </a><td>
-      <td><a href="KDA All Out Ahri.html"><img src= "Image/KDA All Out Ahri.png" height="100" width="100"><th> Ahri </br> Mage </a><td>
-      <td><a href="KDA All Out Akali.html"><img src= "Image/KDA All Out Akali.png" height="100" width="100"><th> Akali </br> Assassin </a><td>
-      <td><a href="Crystal Rose Akshan.html"><img src= "Image/Crystal Rose Akshan.png" height="100" width="100"><th> Akshan </br> Marksman </a><td>
-      <td><a href="Hextech Alistar.html"><img src= "Image/Hextech Alistar.png" height="100" width="100"><th> Alistar </br> Tank </a><td>
-      <td><a href="Hextech Amumu.html"><img src= "Image/Hextech Amumu.png" height="100" width="100"><th> Amumu </br> Tank </a><td>
-      </tr>
+  <p>
+    <table border cellspacing="4">
 
-      <tr>
-      <td><a href="Festival Queen Anivia.html"><img src= "Image/Festival Queen Anivia.png" height="100" width="100"><th> Anivia </br> Mage </a><td>
-      <td><a href="Hextech Annie.html"><img src= "Image/Hextech Annie.png" height="100" width="100"><th> Annie </br> Mage </a><td>
-      <td><a href="NightBringer Aphelios.html"><img src= "Image/NightBringer Aphelios.png" height="100" width="100"><th> Aphelios </br> Marksman </a><td>
-      <td><a href="Fae Dragon Ashe.html"><img src= "Image/Fae Dragon Ashe.png" height="100" width="100"><th> Ashe </br> Marksman </a><td>
-      <td><a href="Storm Dragon Aurelion Sol.html"><img src= "Image/Storm Dragon Aurelion Sol.png" height="100" width="100"><th> Aurelion Sol </br> Mage </a><td>
-      <td><a href="Warring Kingdoms Azir.html"><img src= "Image/Warring Kingdoms Azir.png" height="100" width="100"><th> Azir </br> Mage </a><td>
-      </tr>
-    </table>
-  </table>
+      <thead>
 
+        <tr>
+
+            </tr>
+            <tr>
+            <th>Character</th>
+            <th>Role</th>
+            <th>Difficulty</th>
+        </tr>
+
+        </thead>
+
+      <tbody>
+        <tr>
+            <td>Aatrox</td>
+            <td>Fighter</td>
+            <td>Moderate</td>
+        </tr>
+
+        <tr>
+            <td>Ahri</td>
+            <td>Mage</td>
+            <td>Moderate</td>
+        </tr>
+
+        <tr>
+            <td>Akali</td>
+            <td>Assassin</td>
+            <td>Moderate</td>
+        </tr>
+
+        <tr>
+            <td>Akshan</td>
+            <td>Marksman</td>
+            <td>Low</td>
+        </tr>
+
+        <tr>
+            <td>Alistar</td>
+            <td>Tank</td>
+            <td>Moderate</td>
+        </tr>
+
+        <tr>
+            <td>Amumu</td>
+            <td>Tank</td>
+            <td>Low</td>
+        </tr>
+
+        <tr>
+          <td>Anivia</td>
+           <td>Mage</td>
+           <td>High</td>
+       </tr>
+
+       <tr>
+           <td>Annie</td>
+           <td>Mage</td>
+           <td>Low</td>
+       </tr>
+
+       <tr>
+           <td>Aphelios</td>
+           <td>Marksman</td>
+           <td>High</td>
+
+         <tr>
+           <td>Ashe</td>
+           <td>Marksman</td>
+           <td>Moderate</td>
+
+           <tr>
+           <td>Aurelion Sol</td>
+           <td>Mage</td>
+           <td>Moderate</td>
+
+           <tr>
+           <td>Azir</td>
+           <td>Mage</td>
+           <td>High</td>
+       </tr>
+
+       </tbody>
+
+     <tfoot>
+       <tr>
+         <td colspan="2">Total Characters</td>
+         <td><center>12</center></td>
+       </tfoot>
+</table>
+  </p>
 
     <br>
     <br>
     <br>
     <br>
     <br>
-    <a href="Aatrox.html"><img src="Images/Aatrox.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Ahri.html"><img src="Images/Ahri.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Akali.html"><img src="Images/Akali.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Akshan.html"><img src="Images/Akshan.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Alistar.html"><img src="Images/Alistar.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Amumu.html"><img src="Images/Amumu.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Anivia.html"><img src="Images/Anivia.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Annie.html"><img src="Images/Annie.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Aphelios.html"><img src="Images/Aphelios.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Ashe.html"><img src="Images/Ashe.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Aurelion Sol.html"><img src="Images/Aurelion Sol.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Azir.html"><img src="Images/Azir.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Aatrox.html"><img class="class3" src="Images/Aatrox.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Ahri.html"><img class="class3" src="Images/Ahri.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Akali.html"><img class="class3" src="Images/Akali.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Akshan.html"><img class="class3" src="Images/Akshan.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Alistar.html"><img class="class3" src="Images/Alistar.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Amumu.html"><img class="class3" src="Images/Amumu.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Anivia.html"><img class="class3" src="Images/Anivia.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Annie.html"><img class="class3" src="Images/Annie.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Aphelios.html"><img class="class3" src="Images/Aphelios.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Ashe.html"><img class="class3" src="Images/Ashe.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Aurelion Sol.html"><img class="class3" src="Images/Aurelion Sol.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Azir.html"><img class="class3" src="Images/Azir.jpg" alt="Thumbnails" width="60" length="60"></a>
 
     <h3>A's</h3>
     <li>Aatrox</li>
@@ -168,52 +205,31 @@
     <li>Aurelion Sol</li>
     <li>Azir</li>
 
-    <img src="Images/Aatrox.jpg" width="200" height="200">
-    <img src="Images/Ahri.jpg" width="200" height="200">
-    <img src="Images/Akali.jpg" width="200" height="200">
-    <img src="Images/Akshan.jpg" width="200" height="200">
-    <img src="Images/Alistar.jpg" width="200" height="200">
-    <img src="Images/Amumu.jpg" width="200" height="200">
+    <img class="class2" src="Images/Aatrox.jpg" width="200" height="200">
+    <img class="class2" src="Images/Ahri.jpg" width="200" height="200">
+    <img class="class2" src="Images/Akali.jpg" width="200" height="200">
+    <img class="class2" src="Images/Akshan.jpg" width="200" height="200">
+    <img class="class2" src="Images/Alistar.jpg" width="200" height="200">
+    <img class="class2" src="Images/Amumu.jpg" width="200" height="200">
     <br>
-    <img src="Images/Anivia.jpg" width="200" height="200">
-    <img src="Images/Annie.jpg" width="200" height="200">
-    <img src="Images/Aphelios.jpg" width="200" height="200">
-    <img src="Images/Ashe.jpg" width="200" height="200">
-    <img src="Images/Aurelion Sol.jpg" width="200" height="200">
-    <img src="Images/Azir.jpg" width="200" height="200">
+    <img class="class2" src="Images/Anivia.jpg" width="200" height="200">
+    <img class="class2" src="Images/Annie.jpg" width="200" height="200">
+    <img class="class2" src="Images/Aphelios.jpg" width="200" height="200">
+    <img class="class2" src="Images/Ashe.jpg" width="200" height="200">
+    <img class="class2" src="Images/Aurelion Sol.jpg" width="200" height="200">
+    <img class="class2" src="Images/Azir.jpg" width="200" height="200">
     <br>
-    <br>
-    <br>
-    <hr size="10" color="10">
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <table>
-      <th center colspan=12>B's Characters</th>
-    <table>
-      <tr>
-      <td><a href="Cafe Cuties Bard.html"><img src= "Image/Cafe Cuties Bard.png" height="100" width="100"><th> Bard </br> Support </a><td>
-      <td><a href="Battle Boss Bel'veth.html"><img src= "Image/Battle Boss Bel'veth.png" height="100" width="100"><th> Bel'veth </br> Fighter </a><td>
-      <td><a href="Lancer Rogue Blitzcrank.html"><img src= "Image/Lancer Rogue Blitzcrank.png" height="100" width="100"><th> Blitzcrank </br> Tank </a><td>
-      <td><a href="Eternal Dragon Brand.html"><img src= "Image/Eternal Dragon Brand.png" height="100" width="100"><th> Brand </br> Mage </a><td>
-      <td><a href="Crime City Braum.html"><img src= "Image/Crime City Braum.png" height="100" width="100"><th> Braum </br> Support </a><td>
-      </tr>
-    </table>
-  </table>
-
 
     <br>
     <br>
     <br>
     <br>
     <br>
-    <a href="Bard.html"><img src="Images/Bard.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Bel'veth.html"><img src="Images/Bel'veth.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Blitzcrank.html"><img src="Images/Blitzcrank.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Brand.html"><img src="Images/Brand.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Braum.html"><img src="Images/Braum.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Bard.html"><img class="class3" src="Images/Bard.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Bel'veth.html"><img class="class3" src="Images/Bel'veth.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Blitzcrank.html"><img class="class3" src="Images/Blitzcrank.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Brand.html"><img class="class3" src="Images/Brand.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Braum.html"><img class="class3" src="Images/Braum.jpg" alt="Thumbnails" width="60" length="60"></a>
 
     <h3>B's</h3>
     <li>Bard</li>
@@ -222,43 +238,23 @@
     <li>Brand</li>
     <li>Braum</li>
 
-    <img src="Images/Bard.jpg" width="200" height="200">
-    <img src="Images/Bel'veth.jpg" width="200" height="200">
-    <img src="Images/Blitzcrank.jpg" width="200" height="200">
-    <img src="Images/Brand.jpg" width="200" height="200">
-    <img src="Images/Braum.jpg" width="200" height="200">
+    <img class="class2" src="Images/Bard.jpg" width="200" height="200">
+    <img class="class2" src="Images/Bel'veth.jpg" width="200" height="200">
+    <img class="class2" src="Images/Blitzcrank.jpg" width="200" height="200">
+    <img class="class2" src="Images/Brand.jpg" width="200" height="200">
+    <img class="class2" src="Images/Braum.jpg" width="200" height="200">
     <br>
-    <br>
-    <br>
-    <hr size="10" color="10">
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <table>
-      <th center colspan=5>C's Characters</th>
-    <table>
-      <tr>
-      <td><a href="Pulsefire Caitlyn.html"><img src= "Image/Pulsefire Caitlyn.png" height="100" width="100"><th> Caitlyn </br> Marksman </a><td>
-      <td><a href="Coven Camille.html"><img src= "Image/Coven Camille.png" height="100" width="100"><th> Camille </br> Fighter </a><td>
-      <td><a href="Spirit Blossom Cassiopeia.html"><img src= "Image/Spirit Blossom Cassiopeia.png" height="100" width="100"><th> Cassiopeia </br> Mage </a><td>
-      <td><a href="Shan Hai Scrolls Cho'gath.html"><img src= "Image/Shan Hai Scrolls Cho'gath.png" height="100" width="100"><th> Cho'gath </br> Tank </a><td>
-      <td><a href="Arcade Corki.html"><img src= "Image/Arcade Corki.png" height="100" width="100"><th> Corki </br> Marksman </a><td>
-      </tr>
-    </table>
-    </table>
 
     <br>
     <br>
     <br>
     <br>
     <br>
-    <a href="Caitlyn.html"><img src="Images/Caitlyn.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Camille.html"><img src="Images/Camille.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Cassiopeia.html"><img src="Images/Cassiopeia.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Cho'gath.html"><img src="Images/Cho'gath.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Corki.html"><img src="Images/Corki.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Caitlyn.html"><img class="class3" src="Images/Caitlyn.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Camille.html"><img class="class3" src="Images/Camille.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Cassiopeia.html"><img class="class3" src="Images/Cassiopeia.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Cho'gath.html"><img class="class3" src="Images/Cho'gath.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Corki.html"><img class="class3" src="Images/Corki.jpg" alt="Thumbnails" width="60" length="60"></a>
 
     <h3>C's</h3>
     <li>Caitlyn</li>
@@ -267,42 +263,22 @@
     <li>Cho'gath</li>
     <li>Corki</li>
 
-    <img src="Images/Caitlyn.jpg" width="200" height="200">
-    <img src="Images/Camille.jpg" width="200" height="200">
-    <img src="Images/Cassiopeia.jpg" width="200" height="200">
-    <img src="Images/Cho'gath.jpg" width="200" height="200">
-    <img src="Images/Corki.jpg" width="200" height="200">
+    <img class="class2" src="Images/Caitlyn.jpg" width="200" height="200">
+    <img class="class2" src="Images/Camille.jpg" width="200" height="200">
+    <img class="class2" src="Images/Cassiopeia.jpg" width="200" height="200">
+    <img class="class2" src="Images/Cho'gath.jpg" width="200" height="200">
+    <img class="class2" src="Images/Corki.jpg" width="200" height="200">
     <br>
-    <br>
-    <br>
-    <hr size="10" color="10">
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <table>
-      <th center colspan=5>D's Characters</th>
-    <table>
-      <tr>
-      <td><a href="Crime City Nightmare Darius.html"><img src= "Image/Crime City Nightmare Darius.png" height="100" width="100"><th> Darius </br> Fighter </a><td>
-      <td><a href="Prestige Battle Queen Diana.html"><img src= "Image/Prestige Battle Queen Diana.png" height="100" width="100"><th> Diana </br> Fighter </a><td>
-      <td><a href="Frozen Prince Dr.Mundo.html"><img src= "Image/Frozen Prince Dr.Mundo.png" height="100" width="100"><th> Dr.Mundo </br> Fighter </a><td>
-      <td><a href="Ruined Draven.html"><img src= "Image/Ruined Draven.png" height="100" width="100"><th> Draven </br> Marksman </a><td>
-      </tr>
-    </table>
-    </table>
-
 
     <br>
     <br>
     <br>
     <br>
     <br>
-    <a href="Darius.html"><img src="Images/Darius.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Diana.html"><img src="Images/Diana.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Dr.Mundo.html"><img src="Images/Dr.Mundo.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Draven.html"><img src="Images/Draven.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Darius.html"><img class="class3" src="Images/Darius.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Diana.html"><img class="class3" src="Images/Diana.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Dr.Mundo.html"><img class="class3" src="Images/Dr.Mundo.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Draven.html"><img class="class3" src="Images/Draven.jpg" alt="Thumbnails" width="60" length="60"></a>
 
     <h3>D's</h3>
     <li>Darius</li>
@@ -310,38 +286,21 @@
     <li>Dr.Mundo</li>
     <li>Draven</li>
 
-    <img src="Images/Darius.jpg" width="200" height="200">
-    <img src="Images/Diana.jpg" width="200" height="200">
-    <img src="Images/Dr.Mundo.jpg" width="200" height="200">
-    <img src="Images/Draven.jpg" width="200" height="200">
+    <img class="class2" src="Images/Darius.jpg" width="200" height="200">
+    <img class="class2" src="Images/Diana.jpg" width="200" height="200">
+    <img class="class2" src="Images/Dr.Mundo.jpg" width="200" height="200">
+    <img class="class2" src="Images/Draven.jpg" width="200" height="200">
     <br>
-    <hr size="10" color="10">
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <table>
-      <th center colspan=5>E's Characters</th>
-    <table>
-      <tr>
-      <td><a href="Trick or Treat Ekko.html"><img src= "Image/Trick or Treat Ekko.png" height="100" width="100"><th> Ekko </br> Mage </a><td>
-      <td><a href="Blood Moon Elise.html"><img src= "Image/Blood Moon Elise.png" height="100" width="100"><th> Elise </br> Mage </a><td>
-      <td><a href="KDA All Out Evelynn.html"><img src= "Image/KDA All Out Evelynn.png" height="100" width="100"><th> Evelynn </br> Assassin </a><td>
-      <td><a href="Star Guardian Ezreal.html"><img src= "Image/Star Guardian Ezreal.png" height="100" width="100"><th> Ezreal </br> Marksman </a><td>
-      </tr>
-    </table>
-    </table>
 
     <br>
     <br>
     <br>
     <br>
     <br>
-    <a href="Ekko.html"><img src="Images/Ekko.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Elise.html"><img src="Images/Elise.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Evelynn.html"><img src="Images/Evelynn.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Ezreal.html"><img src="Images/Ezreal.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Ekko.html"><img class="class3" src="Images/Ekko.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Elise.html"><img class="class3" src="Images/Elise.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Evelynn.html"><img class="class3" src="Images/Evelynn.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Ezreal.html"><img class="class3" src="Images/Ezreal.jpg" alt="Thumbnails" width="60" length="60"></a>
 
     <h3>E's</h3>
     <li>Ekko</li>
@@ -349,133 +308,78 @@
     <li>Evelynn</li>
     <li>Ezreal</li>
 
-    <img src="Images/Ekko.jpg" width="200" height="200">
-    <img src="Images/Elise.jpg" width="200" height="200">
-    <img src="Images/Evelynn.jpg" width="200" height="200">
-    <img src="Images/Ezreal.jpg" width="200" height="200">
-    <br>
-    <hr size="10" color="10">
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <table>
-      <th center colspan=3>F's Characters</th>
-    <table>
-      <tr>
-      <td><a href="Star Nemesis Fiddlesticks.html"><img src= "Image/Star Nemesis Fiddlesticks.png" height="100" width="100"><th> Fiddlesticks </br> Mage </a><td>
-      <td><a href="Pool Party Fiora.html"><img src= "Image/Pool Party Fiora.png" height="100" width="100"><th> Fiora </br> Fighter </a><td>
-      <td><a href="Little Devil Fizz.html"><img src= "Image/Little Devil Fizz.png" height="100" width="100"><th> Fizz </br> Assassin </a><td>
-      </tr>
-    </table>
-    </table>
+    <img class="class2" src="Images/Ekko.jpg" width="200" height="200">
+    <img class="class2" src="Images/Elise.jpg" width="200" height="200">
+    <img class="class2" src="Images/Evelynn.jpg" width="200" height="200">
+    <img class="class2" src="Images/Ezreal.jpg" width="200" height="200">
 
     <br>
     <br>
     <br>
     <br>
     <br>
-    <a href="Fiddlesticks.html"><img src="Images/Fiddlesticks.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Fiora.html"><img src="Images/Fiora.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Fizz.html"><img src="Images/Fizz.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Fiddlesticks.html"><img class="class3" src="Images/Fiddlesticks.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Fiora.html"><img class="class3" src="Images/Fiora.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Fizz.html"><img class="class3" src="Images/Fizz.jpg" alt="Thumbnails" width="60" length="60"></a>
 
     <h3>F's</h3>
     <li>Fiddlesticks</li>
     <li>Fiora</li>
     <li>Fizz</li>
 
-    <img src="Images/Fiddlesticks.jpg" width="200" height="200">
-    <img src="Images/Fiora.jpg" width="200" height="200">
-    <img src="Images/Fizz.jpg" width="200" height="200">
-    <br>
-    <hr size="10" color="10">
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <table>
-      <th center colspan=7>G's Characters</th>
-    <table>
-      <tr>
-      <td><a href="Hextech Galio.html"><img src= "Image/Hextech Galio.png" height="100" width="100"><th> Galio </br> Tank </a><td>
-      <td><a href="Betrayer Gangplank.html"><img src= "Image/Betrayer Gangplank.png" height="100" width="100"><th> Gangplank </br> Fighter </a><td>
-      <td><a href="Prestige Mecha Kingdoms Garen.html"><img src= "Image/Prestige Mecha Kingdoms Garen.png" height="100" width="100"><th> Garen </br> Fighter </a><td>
-      <td><a href="Elderwood Gnar.html"><img src= "Image/Elderwood Gnar.png" height="100" width="100"><th> Gnar </br> Fighter </a><td>
-      <td><a href="Artic Ops Gragas.html"><img src= "Image/Artic Ops Gragas.png" height="100" width="100"><th> Gragas </br> Fighter </a><td>
-      <td><a href="Pool Party Graves.html"><img src= "Image/Pool Party Graves.png" height="100" width="100"><th> Graves </br> Marksman </a><td>
-      <td><a href="Space Groove Gwen.html"><img src= "Image/Space Groove Gwen.png" height="100" width="100"><th> Gwen </br> Fighter </a><td>
-      </tr>
-    </table>
-    </table>
+    <img class="class2" src="Images/Fiddlesticks.jpg" width="200" height="200">
+    <img class="class2" src="Images/Fiora.jpg" width="200" height="200">
+    <img class="class2" src="Images/Fizz.jpg" width="200" height="200">
 
     <br>
     <br>
     <br>
     <br>
     <br>
-    <a href="Galio.html"><img src="Images/Galio.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Gangplank.html"><img src="Images/Gangplank.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Garen.html"><img src="Images/Garen.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Gnar.html"><img src="Images/Gnar.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Gragas.html"><img src="Images/Gragas.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Graves.html"><img src="Images/Graves.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Gwen.html"><img src="Images/Gwen.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Galio.html"><img class="class3" src="Images/Galio.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Gangplank.html"><img class="class3" src="Images/Gangplank.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Garen.html"><img class="class3" src="Images/Garen.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Gragas.html"><img class="class3" src="Images/Gragas.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Graves.html"><img class="class3" src="Images/Graves.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Gwen.html"><img class="class3" src="Images/Gwen.jpg" alt="Thumbnails" width="60" length="60"></a>
 
     <h3>G's</h3>
     <li>Galio</li>
     <li>Gangplank</li>
     <li>Garen</li>
-    <li>Gnar</li>
     <li>Gragas</li>
     <li>Graves</li>
     <li>Gwen</li>
 
-    <img src="Images/Galio.jpg" width="200" height="200">
-    <img src="Images/Gangplank.jpg" width="200" height="200">
-    <img src="Images/Garen.jpg" width="200" height="200">
-    <img src="Images/Gnar.jpg" width="200" height="200">
-    <img src="Images/Gragas.jpg" width="200" height="200">
-    <img src="Images/Graves.jpg" width="200" height="200">
-    <img src="Images/Gwen.jpg" width="200" height="200">
-    <br>
-    <hr size="10" color="10">
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <table>
-      <th center colspan=2>H's Characters</th>
-    <table>
-      <tr>
-      <td><a href="Elderwood Hecarim.html"><img src= "Image/Elderwood Hecarim.png" height="100" width="100"><th> Hecarim </br> Fighter </a><td>
-      <td><a href="Dragon Trainer Heimerdinger.html"><img src= "Image/Dragon Trainer Heimerdinger.png" height="100" width="100"><th> Heimerdinger </br> Mage </a><td>
-      </tr>
-    </table>
-    </table>
+    <img class="class2" src="Images/Galio.jpg" width="200" height="200">
+    <img class="class2" src="Images/Gangplank.jpg" width="200" height="200">
+    <img class="class2" src="Images/Garen.jpg" width="200" height="200">
+    <img class="class2" src="Images/Gragas.jpg" width="200" height="200">
+    <img class="class2" src="Images/Graves.jpg" width="200" height="200">
+    <img class="class2" src="Images/Gwen.jpg" width="200" height="200">
 
     <br>
     <br>
     <br>
     <br>
     <br>
-    <a href="Hecarim.html"><img src="Images/Hecarim.jpg" alt="Thumbnails" width="60" length="60"></a>
-    <a href="Heimerdinger.html"><img src="Images/Heimerdinger.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Hecarim.html"><img class="class3" src="Images/Hecarim.jpg" alt="Thumbnails" width="60" length="60"></a>
+    <a href="Heimerdinger.html"><img class="class3" src="Images/Heimerdinger.jpg" alt="Thumbnails" width="60" length="60"></a>
 
     <h3>H's</h3>
     <li>Hecarim</li>
     <li>Heimerdinger</li>
 
-    <img src="Images/Hecarim.jpg" width="200" height="200">
-    <img src="Images/Heimerdinger.jpg" width="200" height="200">
+    <img class="class2" src="Images/Hecarim.jpg" width="200" height="200">
+    <img class="class2" src="Images/Heimerdinger.jpg" width="200" height="200">
 
-    <hr size="10" color="10">
+     <hr size="10" color="10">
 
-    <a href="Form.html">
-      <img src="Images/Buy Now.jpg" width="300" height="300">
-    </a>
+    <center>
+      <a href="Form.html">
+        <img src="Images/Buy Now.jpg" width="300" height="300">
+      </a>
+    </center>
 
     <hr size="10" color="10">
 
