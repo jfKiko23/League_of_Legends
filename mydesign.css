@@ -48,7 +48,7 @@ p{
       }
 
 .class1:hover{
-  border-width: 25px;
+  border-width: 100px
       }
 
 .class2{
@@ -67,22 +67,25 @@ p{
       }
 
 .class3{
-  height: 50px;
-  width: 50px;
-
-  border-style: solid;
-  border-width: 10px;
-  border-radius: 10px;
-  background-clip: content-box;
-  border-color: #8BBCCC;
-
-  padding: 10px;
-
-  margin: 10px;
+  background: #ff3333;
+  background-image: -webkit-linear-gradient(top, #ff3333, #821229);
+  background-image: -moz-linear-gradient(top, #ff3333, #821229);
+  background-image: -ms-linear-gradient(top, #ff3333, #821229);
+  background-image: -o-linear-gradient(top, #ff3333, #821229);
+  background-image: linear-gradient(to bottom, #ff3333, #821229);
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 18px;
+  padding: 4px 8px 4px 8px;
       }
 
 .class3:hover{
-  border-width: 15px;
+  background: #04d9a7;
+  background-image: -webkit-linear-gradient(top, #04d9a7, #14120a);
+  background-image: -moz-linear-gradient(top, #04d9a7, #14120a);
+  background-image: -ms-linear-gradient(top, #04d9a7, #14120a);
+  background-image: -o-linear-gradient(top, #04d9a7, #14120a);
+  background-image: linear-gradient(to bottom, #04d9a7, #14120a);
       }
 
 .target{
