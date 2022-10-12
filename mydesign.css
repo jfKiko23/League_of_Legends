@@ -1,5 +1,5 @@
 body{
-  background-color: #FFE9A0;
+  background: linear-gradient(to bottom, #FFE9A0, #D0B8A8, #FFE9A0, #D0B8A8);
 }
 
 hr{
